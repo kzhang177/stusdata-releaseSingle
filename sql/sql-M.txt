@@ -1,0 +1,2 @@
+select sum( money) as Money_all  from patient
+ where name  like '%³çÊçÕä%' and workRoomName in ('²Ê³¬Ò»ÊÒ','²Ê³¬¶şÊÒ','²Ê³¬ÈıÊÒ','²Ê³¬ËÄÊÒ','²Ê³¬ÎåÊÒ','²Ê³¬ÁùÊÒ','²Ê³¬ÆßÊÒ','²Ê³¬°ËÊÒ') and ((Bsuifang=0) or (bsuifang is null) )

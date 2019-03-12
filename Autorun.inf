@@ -1,0 +1,5 @@
+[autorun]
+OPEN=CDview.exe
+ICON=CDview.ico
+hostname=徐州市医学院附属医院
+cross=cross.bmp

@@ -1,0 +1,85 @@
+CDIMAGE 2.46 CD-ROM and DVD-ROM Premastering Utility
+Copyright (C) Microsoft, 1993-2000.  All rights reserved.
+For Microsoft internal use only.
+
+Usage: CDIMAGE [參數] 來源目錄 目標影像檔
+
+    -l  光碟標籤，不含空白鍵 (e.g. -lMYLABEL)
+    -t  將所有檔案和目錄都設為同一日期，不含空白鍵和任何特殊符號
+       (e.g. -t12/31/2000,15:01:00)
+    -g  將時間設為 GMT 時間而非本地時間
+    -h  包含隱藏檔和隱藏目錄
+    -n  允許長檔名 (超過 8.3 檔名)
+    -nt 允許長檔名，但受限於 NT3.51 相容性
+       (-nt 和 -d 不可同時使用)
+    -d  不強制將小寫檔名改為大寫檔名
+    -c  使用 ANSI 檔名以對應原始目錄中的 OEM 檔名
+    -j1 編碼為 Joliet Unicode 檔名並在 ISO-9660 名稱空間中產生相容於 
+      DOS 的 8.3 檔名格式. (可在 Joliet 系統或其他一般的 ISO-9660 
+      系統中被讀取, 但某些檔名在 ISO-9660 名稱空間中可能會被改變，
+      以遵守 DOS 8.3 與 ISO-9660 命名限制)
+    -j2 編碼為 Joliet Unicode 檔名而不遵守 ISO-9660 檔名規則
+       (必須在 Joliet 作業系統從 CD 讀取檔案)
+      當使用 -j1 或 -j2 參數時, -n, -nt, 和 -d 參數無法生效
+      並且不可使用.
+    -js 以 -j2 參數將影像檔中的非 Joliet 檔案 "readme.txt" 編碼.
+      (e.g. -jsc:\location\readme.txt).
+      這樣可以讓這張光碟的這個唯一的檔案在不支援 Joliet 格式的系統中
+      (Windows 3.1, NT 3.x...等)被看見.
+    -u1 編碼為 "UDF-Bridge" 媒體
+    -u2 編碼為 "UDF" 檔案系統而不對映 ISO-9660 檔案系統
+       (必須有 UDF 相容作業系統才可讀取檔案)
+    -ur 以 -u2 參數將影像檔中的非 UDF 檔案 "readme.txt" 編碼.
+      (e.g. -usc:\location\readme.txt).
+      這樣可以讓這張光碟的這個唯一的檔案在不支援 UDF 格式的系統中
+      被看見.
+    -us 分散 UDF 檔案
+    -ue embed file data in UDF extent entry
+    -uf embed UDF FID entries
+    -uv UDF Video Zone compatibility enforced
+    -b  "El Torito" 開機區段檔案，不佔檔案空間
+       (e.g. -bc:\location\cdboot.bin)
+    -p  Platform ID for the "El Torito" boot catalog
+    -e  在 El Torito 開機記錄中設置不模擬軟碟。
+    -s  在影像檔中加入數位簽章 (不佔空間, 必須提供 RPC 伺服器與終點名稱如下
+      -sServerName:EndPointName)
+    -x  在影像檔中計算與編碼 "AutoCRC" 值
+    -o  處理重複檔名以將影像檔大小最佳化 (譯註：縮小影像檔容量，即本程式之精華所在)
+    -oc 使用二進位比對代替 MD5 雜湊值, 這會以較慢的速度比對重複的檔案.
+    -oi 比對檔案時忽略高度壓縮的時間戳記
+    -os 建立影像檔時顯示重複的檔名
+      (-o 等類似參數不可簡寫為 -ocis)
+    -w  依照數字提供不同的警告等級 (e.g. -w4)
+      1  回報非 ISO 或非 Joliet 相容檔名或路徑
+      2  回報非 DOS 相容檔名
+      3  回報長度為零的檔案
+      4  回報每一個加入影像檔中的檔名
+    -y  依照數字提供不同的測試選項 (e.g. -y1)，用於測試用途，
+      可產生不遵守 ISO-9660 的變體影像檔
+      1 encode trailing version number ';1' on filenames (7.5.1)
+      2 round directory sizes to multiples of 2K (6.8.1.3)
+      5 write \i386 directory files first, in reverse sort order
+      6 allow directory records to be exactly aligned at ends of sectors
+        (ISO-9660 6.8.1.1 conformant but breaks MSCDEX)
+      7 warn about generated shortnames for 16-bit apps under NT 4.0
+      b blocksize 512 bytes rather than 2048 bytes
+      d suppress warning for non-identical files with same initial 64K
+      l UDF - long ads used in file entries instead of short ads
+      r UDF - number of ad's is random
+      w open source files with write sharing
+      t load segment in hex for El Torito boot image (e.g. -yt7C0)
+      f use a faster way to generate short names
+    -k  (保留) 即使開啟部分來源檔案失敗時也強制建立影像檔
+    -m  忽略 681,984,000 bytes 的影像檔限制，以便產生 650MB 以上的影像檔
+    -a  allocation summary shows file and directory sizes
+    -q  只掃描來源檔案，不建立影像檔
+
+    NOTE: 大部分選項允許您建立不依循 ISO-9660 的影像檔，
+       並且也可能和一個或多個作業系統不相容。
+       若您想嚴格的依循 ISO 標準或 DOS，
+       使用 -w2 警告層級並更正任何不一致的報告
+       YOU are responsible for insuring that any generated CDs
+       are compatible with all appropriate operating systems.
+       Also note that Microsoft company information is placed
+       in the image volume header, so don't use this program
+       to generate CDs for companies other than Microsoft.

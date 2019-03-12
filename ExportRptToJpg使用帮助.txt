@@ -1,0 +1,19 @@
+
+导出病人检查报告到指定的目录中存储成bmp,jpg,pdf,html,gif 等格式
+命令格式:
+ExportRptToJpg.exe [/DBID] [/[y/n]] [/num] [/path][/show]
+[/DBID] :dbid是指要导出的记录在数据库中的自增id编号
+ [/[y/n]]: 生成报告时否使用所见即所得的方式
+              y:使用所见即所复
+              n:不使用所见即所得
+ [/num]:指定导出的文件类型
+           0:bmp
+           1:jpg
+           2:pdf
+           3:html
+           4:gif
+[/show]:是否显示打印预览
+            show:显示
+            hide :不显示
+使用举例:ExportRptToJpg.exe /344 /y  /4  /c:\1
+           导出id为344 的报告到c:\1目录下,使用所见即所得,格为成 gif

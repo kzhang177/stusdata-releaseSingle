@@ -1,0 +1,10 @@
+ SELECT csid ,[name],jianchapart,
+ CASE   SQDScaned  WHEN   1   THEN   'ÒÑÉ¨Ãè'   WHEN   0   THEN   'Î´É¨Ãè'   END   AS   ÉêÇëµ¥  ,
+ CASE   DoubleCheck  WHEN   1   THEN   'ÊÇ'   WHEN   0   THEN   '·ñ'   END   AS   ÖØ¸´¼ì²é  ,
+ CASE  ReportState  WHEN   1   THEN   'ÊÇ'   WHEN   0   THEN   '·ñ'   END   AS   ÒÑ´òÓ¡ 
+,sex,age, baogaoriqi,workRoomName ,id
+ from patient 
+ where workRoomName='³¬ÉùÒ»ÊÒ'
+ and baogaoriqi>='2012-6-6 00:00:00'
+ and baogaoriqi<='2012-6-6 23:59:59'
+  order by csid desc

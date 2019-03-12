@@ -1,0 +1,10 @@
+select zdlid ,PaiDuiHao as 排队号,PatientName as 病人姓名,sex as 性别,age as 年龄,PatientFrom as 来源,(case  hjstate when 0 then '等待呼叫' when 1 then '正在呼叫' when 2 then '呼叫完成' end)as 呼叫状态,beizhu as 备注,CheckPart as 检查部位,LastHjroom as 最后呼叫,roomName as 诊室, ageunit as 单位,yxid,statTime as 登记时间,yxjName as 优先级,CASE   IsPred  WHEN   1   THEN   '是'   WHEN   0   THEN   '否'   END   AS   是否预约,  dlid,Doctor as 指定医生,PDStatite as 排队状态,FullHisNo as His号,DLName as 队列, moneyS,LinChuang_ZhengDuan as 临床诊断,linchuang_Doctor as 临床医生,DangAnHao as 档案号,ZhuYuanHao as 住院号,Bed_Hao 床号 ,youxianji,roomid,LianXiFangShi as 联系方式,hjstate ,items 
+ from queue_duiLieingView  
+ where PDStatite='排队中'
+ and dlid=63
+ and ( roomid=-1  or roomid=58)
+ and PDStatite='排队中'
+ and IsPred=1
+
+ and (lastroomId=58 or lastroomId=-1 )
+ order by yxid,paiduihao

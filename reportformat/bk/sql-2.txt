@@ -1,0 +1,3 @@
+select sum( money) as Money_all  from patient
+where
+ WorkRoomName='³¬ÉùÒ»ÊÒ'and baogaoriqi>='2014-01-18' and baogaoriqi<='2014-01-20'

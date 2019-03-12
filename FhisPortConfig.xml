@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <connectionStrings>
+    <add name="ConnStr" connectionString="Data Source=172.16.0.41\SQLEXPRESS;User ID=sa;Password=Fieldenginee1r;Initial Catalog=FYCS" providerName="System.Data.SqlClient" />
+    <!-- 体检数据连接字串 -->
+    <add name="ConnStrTJ" connectionString="Data Source=172.16.0.5;User ID=fushi;Password=fushi;Initial Catalog=hrp275" providerName="System.Data.SqlClient" />
+    <!-- 通用正常his数据库连接字串 -->
+    <add name="ConnStrHis" connectionString="Data Source=172.16.0.5;User ID=fushi;Password=fushi;Initial Catalog=hrp275" providerName="System.Data.SqlClient" />
+    <add name="ksdm" value="0101020301">
+    </add>
+    <add name="checktype" value="超声检查">
+    </add>
+  </connectionStrings>
+  <set>
+    <add name="webservice" value="http://192.168.10.120:80/HisInterface.asmx" />
+    <add name="hsmc" value="GetHisJc" />
+    <add name="day" value="1" />
+    <add name="rmod" value="彩超室" />
+    <add name="itemid" value="" />
+    <add name="jyjk" value="0" />
+  </set>
+  <tijianconfig>
+    <!--  配置 体检根据项目名称模糊查询关键字 -->
+    <add name="tijian" filterstring="" />
+  </tijianconfig>
+</configuration>

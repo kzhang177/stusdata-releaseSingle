@@ -1,0 +1,67 @@
+Version   : 6.1.04
+Date      : Thu, 31 Jan 2013 22:22:52 +0800
+OS        : Microsoft Windows 2003
+RAD       : Delphi 7.0
+Dump      : $8B $6B $08 $8B $C5 $03 $43 $0C $8B $D0 $8D $0C $37 $2B $D1 $83 $FA $0C $7F $04 $8B $F8 $2B $FE $8B $C6 $2B $C5 $83 $F8 $0C $7D 
+Section   : ExceptionLog.Done (Address: 00ABB480)
+LastExcept: 
+Address   : $4100460C - [41000000] borlndmm.dll -  -  -  - 0[0]
+Exception : EAccessViolation
+Message   : Access violation at address 4100460C in module 'borlndmm.dll'. Read of address 00000008
+Call Stack: 00 $0040BCD8 - [00400000] TRUSis.exe 
+            01 $006C003C - [00400000] TRUSis.exe 
+            02 $00404F88 - [00400000] TRUSis.exe 
+            03 $00430057 - [00400000] TRUSis.exe - ECore.pas -  - ReadString - 913[2]
+            04 $0050005A - [00400000] TRUSis.exe 
+            05 $00404F88 - [00400000] TRUSis.exe 
+            06 $00430057 - [00400000] TRUSis.exe - ECore.pas -  - ReadString - 913[2]
+            07 $0050005A - [00400000] TRUSis.exe 
+            08 $00690072 - [00400000] TRUSis.exe - frxDesgn.pas - TfrxDesignerForm - NewReportCmdExecute - 4532[48]
+            09 $0073BE1C - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawLineShape - 7748[0]
+            0A $00740069 - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawObject - 10602[88]
+            0B $0050005A - [00400000] TRUSis.exe 
+            0C $77E2C635 - [77E10000] user32.dll 
+            0D $005F0041 - [00400000] TRUSis.exe - frxCtrls.pas - TfrxCustomComboBox - ComboWndProc - 540[16]
+            0E $0050005A - [00400000] TRUSis.exe 
+            0F $0050005A - [00400000] TRUSis.exe 
+            10 $0050005A - [00400000] TRUSis.exe 
+            11 $00404F88 - [00400000] TRUSis.exe 
+            12 $00430057 - [00400000] TRUSis.exe - ECore.pas -  - ReadString - 913[2]
+            13 $0073BE1C - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawLineShape - 7748[0]
+            14 $00740069 - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawObject - 10602[88]
+            15 $003B0066 - [003A0000] UxTheme.dll 
+            16 $0050005A - [00400000] TRUSis.exe 
+            17 $003B002E - [003A0000] UxTheme.dll 
+            18 $0040BCD8 - [00400000] TRUSis.exe 
+            19 $006C003C - [00400000] TRUSis.exe 
+            1A $0073BE1C - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawLineShape - 7748[0]
+            1B $00740069 - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawObject - 10602[88]
+            1C $0050005A - [00400000] TRUSis.exe 
+            1D $00404F88 - [00400000] TRUSis.exe 
+            1E $00430057 - [00400000] TRUSis.exe - ECore.pas -  - ReadString - 913[2]
+            1F $0050005A - [00400000] TRUSis.exe 
+            20 $0050005A - [00400000] TRUSis.exe 
+            21 $00404F88 - [00400000] TRUSis.exe 
+            22 $00430057 - [00400000] TRUSis.exe - ECore.pas -  - ReadString - 913[2]
+            23 $0050005A - [00400000] TRUSis.exe 
+            24 $0073BE1C - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawLineShape - 7748[0]
+            25 $00740069 - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawObject - 10602[88]
+            26 $00610067 - [00400000] TRUSis.exe - frxDialogForm.pas -  - Initialization - 77[0]
+            27 $004EE54C - [00400000] TRUSis.exe 
+            28 $00580040 - [00400000] TRUSis.exe 
+            29 $004EE54C - [00400000] TRUSis.exe 
+            2A $00580040 - [00400000] TRUSis.exe 
+            2B $00690072 - [00400000] TRUSis.exe - frxDesgn.pas - TfrxDesignerForm - NewReportCmdExecute - 4532[48]
+            2C $0050005A - [00400000] TRUSis.exe 
+            2D $00520068 - [00400000] TRUSis.exe 
+            2E $0073BE1C - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawLineShape - 7748[0]
+            2F $00740069 - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawObject - 10602[88]
+            30 $00610067 - [00400000] TRUSis.exe - frxDialogForm.pas -  - Initialization - 77[0]
+            31 $004CFF3C - [00400000] TRUSis.exe 
+            32 $004D004F - [00400000] TRUSis.exe 
+            33 $0050005A - [00400000] TRUSis.exe 
+            34 $0073BE1C - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawLineShape - 7748[0]
+            35 $00740069 - [00400000] TRUSis.exe - ievect.pas - TImageEnVect - DrawObject - 10602[88]
+            36 $0050005A - [00400000] TRUSis.exe 
+            37 $00527914 - [00400000] TRUSis.exe 
+            38 $006C005D - [00400000] TRUSis.exe 

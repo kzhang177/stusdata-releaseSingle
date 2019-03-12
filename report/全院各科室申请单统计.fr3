@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.3" DotMatrixReport="False" EngineOptions.MaxMemSize="10000000" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39133.3621273843" ReportOptions.Description.Text="" ReportOptions.LastChange="39293.8450916898" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403D10203546F70020908446174617365747301010C3000000020446174615365743D226672785F6B7373715F64622220446174615365744E616D653D226672785F6B7373715F6462220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Height="34.01577" Left="0" Top="128.50402" Width="718.1107">
+      <TfrxMemoView Name="Memo2" Left="11.33859" Top="6" Width="62.99216667" Height="18.41733667" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="ä¸´åºŠç§‘å®¤"/>
+      <TfrxLineView Name="Line1" Left="3.77953" Top="2.67717999999999" Width="718.1107" Height="0" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo3" Left="192.99227" Top="6" Width="64.25201" Height="20.41733667" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="ç”³è¯·å•æ•°"/>
+      <TfrxLineView Name="Line2" Left="3.77953" Top="30.23624" Width="1039.37075" Height="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo13" Left="456.32313" Top="3.77952999999999" Width="68.03154" Height="19.15749333" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="æ€»æ”¶å…¥"/>
+    </TfrxPageHeader>
+    <TfrxReportTitle Name="ReportTitle1" Height="86.92919" Left="0" Top="18.89765" Width="718.1107">
+      <TfrxMemoView Name="Memo1" Align="baCenter" Left="268.644645" Top="48.13389" Width="180.82141" Height="28.23624" AutoWidth="True" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="5" Frame.Typ="8" Frame.Width="0.1" ParentFont="False" Text="å…¨é™¢å„ç§‘å®¤ç”³è¯·å•ç»Ÿè®¡"/>
+      <TfrxPictureView Name="logo" Left="11.33859" Top="0" Width="83.14966" Height="60.47248"/>
+      <TfrxMemoView Name="hostname" Align="baCenter" Left="357.05535" Top="2.51968667" Width="4" Height="55.43310667" AutoWidth="True" Font.Charset="1" Font.Color="0" Font.Height="-32" Font.Name="»ªÎÄÁ¥Êé" Font.Style="0" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="startdate" Left="478.89796" Top="61.73232333" Width="90.70872" Height="20.15749333" HAlign="haCenter" VAlign="vaBottom" Text=""/>
+      <TfrxMemoView Name="Memo12" Left="569.60668" Top="61.60629921" Width="18.89765" Height="20.15749333" DisplayFormat.DecimalSeparator="." HAlign="haCenter" VAlign="vaBottom" Text="--"/>
+      <TfrxMemoView Name="enddate" Left="596.06339" Top="61.60629921" Width="90.70872" Height="20.15749333" HAlign="haCenter" VAlign="vaBottom" Text=""/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="23.45671" Left="0" Top="222.99227" Width="718.1107" AllowSplit="True" Child="Child1" ColumnWidth="0" ColumnGap="0" DataSet="frx_kssq_db" DataSetName="frx_kssq_db" PrintChildIfInvisible="True" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo6" Left="208.75603" Top="4" Width="136.06308" Height="18.89765" DataField="ÉêÇëµ¥Êý" DataSet="frx_kssq_db" DataSetName="frx_kssq_db" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[frx_kssq_db.&#34;ç”³è¯·å•æ•°&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="14.33859" Top="4.55905999999999" Width="124.72449" Height="18.89765" DataField="ÁÙ´²¿ÆÊÒ" DataSet="frx_kssq_db" DataSetName="frx_kssq_db" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[frx_kssq_db.&#34;ä¸´åºŠç§‘å®¤&#34;]"/>
+      <TfrxMemoView Name="frx_qr_dbmenzhennum" Left="461.10266" Top="2.22047000000001" Width="158.74026" Height="18.89765" DataField="×ÜÊÕÈë" DataSet="frx_kssq_db" DataSetName="frx_kssq_db" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[frx_kssq_db.&#34;æ€»æ”¶å…¥&#34;]"/>
+    </TfrxMasterData>
+    <TfrxFooter Name="Footer1" Height="44.09451666" Left="0" Top="298.58287" Visible="False" Width="718.1107">
+      <TfrxMemoView Name="Memo8" Left="249.44898" Top="5.03937332999999" Width="47.87404667" Height="23.93702333" Color="65535" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="æ€»è®¡:"/>
+      <TfrxLineView Name="Line3" Left="0" Top="34.01577" Width="717.1107" Height="0" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo9" Left="302.96083333" Top="6.29921667000008" Width="110.86621333" Height="15.11812" DisplayFormat.DecimalSeparator="." Text=""/>
+      <TfrxMemoView Name="Memo10" Left="529.69326" Top="6.29921667000008" Width="110.86621333" Height="20.15749333" DisplayFormat.DecimalSeparator="." Text=""/>
+    </TfrxFooter>
+    <TfrxPageFooter Name="PageFooter1" Height="49.13389" Left="0" Top="404.40971" Width="718.1107">
+      <TfrxLineView Name="Line5" Left="1.77953" Top="7.55905999999999" Width="714.33117" Height="0" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo11" Left="196.53556" Top="15.11812" Width="268.34663" Height="22.67718" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="MedSys Soft"/>
+    </TfrxPageFooter>
+    <TfrxChild Name="Child1" Height="7.55906" Left="0" Top="268.34663" Width="718.1107" Stretched="True">
+      <TfrxLineView Name="Line6" Left="0" Top="3.77953000000002" Width="680.3154" Height="0" Frame.Typ="4"/>
+    </TfrxChild>
+  </TfrxReportPage>
+</TfrxReport>

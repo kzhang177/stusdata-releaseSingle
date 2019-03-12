@@ -1,0 +1,9 @@
+//SUPPRESSIONPROJ:MedSysUS
+//VERSION:5.00
+//ENABLE:Yes
+!include Delphi.sup
+ignore failure KERNEL32.DLL:LoadLibraryExA in module EXE
+ignore failure KERNEL32.DLL:CreateMutexW in module quartz.dll
+ignore failure KERNEL32.DLL:CreateFileMappingW in module quartz.dll
+ignore failure ADVAPI32.DLL:GetTokenInformation in module MSCTF.dll
+

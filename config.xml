@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet?>
+<config>
+	<VideoGrabber VideoComPressIndex="0" VideoSourceIndex="0" VideoSourceName="Datapath VisionRGB-E1 01 (WDM)" VideoComPressConfigFile="C:\Documents and Settings\Administrator\桌面\VicdoCapture\release\FYvideocfg1080p.prx"/>
+	<DataBase schemaLocation="D:\stusdata\releaseSingle\Connect_Local1.udl" MainDBLinkFile="D:\stusdata\releaseSingle\Connect_Local.udl"/>
+	<VideoCard type="3"/>
+	<超声号 超声号自动加1="True" NO="10341" 前缀="8" 分隔符="" 日期格式="YYMMDD"/>
+	<Font name="宋体" style="[]" color="clWindowText" Size="12"/>
+	<Richedit sj_color="$00F2DCD5" ts_color="$00F2DCD5"/>
+	<ReportTitle 报告标题="彩色超声报告单" title_num="-1"/>
+	<Capture speed="0" FootSwichHouTai="False" UseHouTaiCap="True" scanhotkey="117" caphotkey="115" capcont="500" QuickHouTai_hotkey="122" Cap_Beep="True"/>
+	<FootSwich FootSwich_Record="True" port="COM3" footswitchoff="False" footswitchdelay="900"/>
+	<Store autosavetime="1" ForceAutoSave="False" AutoSave="False" ImagePaths="D:\stusdata\病人图像\Image" DeleteEmptyBingLI="True"/>
+	<Application Demo="False"/>
+	<HIS use_BiaoRuanTJ="False" use_21TJ="False" B_Retun_ToHisOnPrintView="False" B_return_ReportFinsher="False" HisDBlink="&quot;D:\stusdata\releaseSingle\Connect_his.udl&quot;" B_Retun_ToTJOnPrintView="False" B_LockHisPort="False" B_UseEasyHisPort="True" useHisPort="False"/>
+	<叫号系统 B_NZHjlstToDengJilst="False" check_showHint="False" port="8190" Screen_ip="192.168.15.41" 预约检索条件="0" 自动新建="False" B_useJH="False" B_HuJiao_DuiLieNotLimit="False" Check_UseUdp="True" Check_SnapScreenLeft="True" B_Lock_AfterHJ="True" lockTime="15"/>
+	<模板 模板路径="D:\stusdata\data\mod.mdb" usePartWindow="False" ModSend_HintSelected="False" ModAutoSend="False" ModdAdd_JY="False" ThirdModeTag="JY" HLmodePath="D:\stusdata\mode\mhl\info.mdb" useChangYongMode="False" KeepModFromatWhenUse="True" HLmode_Added="True" UseHLMode="False" UseThirdMode="True" ChangYounModeAdded="True"/>
+	<Print Wysiwyg="False" WordPrint="False" showprintdialog="False" font_used="False" font_fontChange="False" font_charset="DEFAULT_CHARSET" font_fontname="宋体" DefaultRptFmt="A4.fr3"/>
+	<other AutoFreeMemory="True"/>
+	<pacs opendicom="False" UpLoadToPacsDbLink="D:\stusdata\releaseSingle\UpToPacsConnect.udl" UpDataToRMpacsServer="False" useDicomReceivedImgTab="False" Pacs_workListScu_AE="ae1" B_StartWorkListMOde="False" B_UseOutImgDir="False" B_useWebUpload="False" S_WebUPloadAddress="http://192.168.2.35:80/report.asmx?WSDL"/>
+	<报告编辑器 notUseRtf="True" DeleteEnter="False"/>
+	<WorkRoom WorkRoomClass="超声一科" WorkRoomName="彩超八室"/>
+	<Patient Default_OpenLastPatient="False"/>
+	<Display screenSelfWidth="1400" screenselftHeight="900" ScreenDisplayTag_Auto="True" Videopanel_W_h="0"/>
+	<dgc133/>
+	<录像 UseOtherRecordPath="False" OtherRecordPath="d:\ddd" OtherRecordPath_Tag="" RecordDevice="VTimage, VTRGB-680 Capture" WmvPrxFile="&quot;C:\Documents and Settings\Administrator\桌面\VicdoCapture\release\复件 FYvideocfg1080p.prx&quot;" UseWMEconfig="False"/>
+	<ImageCut top="39" left="96" width="287" height="229"/>
+	<收费 黑白超收费="30" 彩超收费="90" 报告单收费="10" 基价="20"/>
+	<设备 设备型号="PHLIPS"/>
+	<医院 院标="D:\stusdata\releaseSingle\backimage\cross.bmp" 医院名称="北京中医医院顺义医院"/>
+	<MainForm B_useGreenMethod="False" B_notDisable_patientName="True" B_EnablePrintNoName="True" B_useHis_ReturnPort="False" B_useTiJian_ReturnPort="False" B_AftercutSaveToPatient="True" VideoWindow_width="540" VideoWindow_height="360">
+		<toolbar celing="False" xinzang="False" canke="False" lishi="True" tuichu="True"/>
+	</MainForm>
+	<video VideoStandard="4" VideoBrightNess="128" VideoContrast="216" VideoHue="128" VideoSaturation="256" ImageWidth="768" ImageHeight="576" mpeg4="True" ScaleToScreen="False" DefaultVideoinputPort="2" B_vt_videoGeHang="True" ds_VideoSourceIndex="0" ds_videoStandardIndex="2" ds_VideoInputIndex="2" ds_VideoSizeIndex="15" ds_videocompressIndex="2" dvsg_video_deinterlacing="0" ds_iCapDelay="800"/>
+	<招告编辑器 ChangeReportStatus="True" ReportFontSize="12" MoveLastToQT="True"/>
+	<CDWrite nero_cmd_path="D:\stusdata\releaseSingle\cdimage" cmdimage_path="D:\stusdata\releaseSingle\cdimage" Iso_package_path="D:\stusdata\cd_temp\Iso_temp" File_package_path="D:\stusdata\cd_temp\File_temp" CD_Drive_Name="J" CD_media_type_dvd="False" CD_write_speed="24" CD_volume_title="" ExportJpg="False"/>
+	<WordPrint delay="6" auturun="True" min="True" closefile="False" show="False" PageSize="B5" PrintToPaper="False"/>
+	<Dispaly Videopanel_W_h="2"/>
+	<modform modformwidth="724" ontop="True" B_ModInsertAddToLast="True"/>
+	<sdk3000 VideoSize="720 * 576" VideoCompress="XviD MPEG-4 Codec" VIDEO_IN_port="4" FramrRate="0" OsdT_show="False" OsdText_height="0" OsdText_width="0" OsdText_weight="0" OsdText_Spacing="0" OsdText_BkColor="clBlack" OsdText_TextColor="clBlack" OsdText_Italic="False" OsdText_Underline="False" OsdText_StrikeOut="False" OsdText_FaceName="宋体" OsdT_point_x="0" OsdT_point_y="0" OsDT_Transparent="True" Osd_str="FuYuan Soft" OsdD_show="False" OsdD_height="0" OsdD_width="0" OsdD_weight="0" OsdD_Spacing="0" OsdD_BkColor="clBlack" OsdD_Italic="False" OsdD_Underline="False" OsdD_StrikeOut="False" OsdD_FaceName="宋体" OsdD_point_x="0" OsdD_point_y="0" OsDD_Transparent="True"/>
+	<ImgSR port="5600" WebAddress="http://192.168.2.35:80/report.asmx?WSDL" B_useWebServ="False" s_FtpServer="192.168.2.35" s_FtpUser="Doctor" s_FtpPwd="Docto1r" i_ftpPort="21" B_UseFtp="False" S_FTPRoot="/us" B__UseUNCSendImg="True"/>
+	<Workroom/>
+	<patient CreateNewPatientArterPrinted="False"/>
+	<part B_JcBWuseGrid="False" B_useImgDongTaiFanda="True"/>
+	<测量表格 B_useGridjpgCut="False"/>
+	<颈部血管.tab left="186" top="79" width="401" height="136"/>
+	<心脏.tab left="80" top="56" width="627" height="641"/>
+	<TiJian B_useTianJiPort="True" TiJianDBLink="D:\stusdata\releaseSingle\Connect_TFDtiJIan.udl"/>
+	<form B_filter="False" S_filter="超"/>
+	<Room Room_filterString="彩超一室,彩超二室,彩超三室,彩超四室,彩超五室,彩超六室,彩超七室,彩超八室"/><SQD B_HintSanSQD="False" S_SQD_LocalFn="D:\2.jpg" B_DisplaySQDViewButtonOnMainForm="False"/><CustomUI/><LCZD B_AutoRemberLCZD="True"/><Net/><Joy B_useJoyControl="False" I_JoyTimer="125" I_joyBt1="0" I_joyBt2="1" I_joyBt3="2" I_joyBt4="3" I_JoyDelayCanCap="500"/><Competence/><CeLiang/><Record vt133_RecordType="0"/><YinYangXing B_ForceYinYanXing="False"/><FireTran B_ClosrFireTran="True"/><Quick FirdtNewAfterGet="True"/><ServerStore/><mod B_ShowModTreeFrom="True"/><RoomScreen B_useRoomScreen="False" S_RoomScreenIp="192.168.15.93" I_RoomScreenPort="9999" s_RoomScreenMask="#WAITOR::NAME={name}&amp;WINID=A888&amp;SERIAL={num}" S_RoomScreenMask_Tips="#TIP::{tipinfo}#" S_RoomScreenHint="祝您建康!&#xA;"/><默认/><nCacheCapFrom top="100" left="100" width="676" height="516"/><RightTab B_UseTab_DengJiInfo="False" B_useTitleOpenHouTaiCap="False" B_UseTab_TeShuFuHao="True"/><GaoPaiYi Gpy_AppTitle="FUJISCANIMAGE"/><emr emr_tag=""/><report B_useFirstImgToPrintBox="True"/><PrtImageCut Autocut="False" top="86" left="208" width="188" height="211"/><WriteReport B_capRptStatusSplite="True"/><mainform mainsplter="1483"/><沧州妇幼.tab/><NetCheck s_ServerIp="192.168.2.35" s_ServerPort="1433" B_CheckNetconect="False" B_CheckSqlServerPort="False"/><FileTran B_userFtp="False"/><ReportQuerenStateSelectForm sspliter_postion="694"/><FileTrans B_useUNCDownFile="True" B_UseFTPDownFile="False" RftpInfo_server="192.168.2.35" RftpInfo_user="Doctor" RftpInfo_pwd="Docto1r" RftpInfo_rootDir="/us" RftpInfo_port="21"/><Part B_AutoSelect_NotExamPart="False"/><MainFrom/><TodayList/><AutoSave B_AutoSaveWhenNameEdited="True"/><dongtaifangda/><BingLiSelect/><QueueFrom left="0" top="0" width="836" height="864" uMspliter="765" tmpLastDuiLie="彩超三室"/><Item B_ForceSeletPartItem="True"/></config>

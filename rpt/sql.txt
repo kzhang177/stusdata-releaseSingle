@@ -1,0 +1,2 @@
+select * from patient   where   baogaoriqi='2012-12-31'
+ and  ReportState=0 

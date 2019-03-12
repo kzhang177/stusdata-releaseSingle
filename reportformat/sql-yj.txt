@@ -1,0 +1,5 @@
+select zdlid ,PaiDuiHao as 排队号,DLName as 队列,roomName as 诊室,PatientName as 病人姓名,CheckPart as 检查部位,sex as 性别,age as 年龄,ageunit as 单位,yxid,statTime as 登记时间,yxjName as 优先级,dlid,Doctor as 指定医生,PDStatite as 排队状态,FullHisNo as His号,PatientFrom as 来源, moneyS,LinChuang_ZhengDuan as 临床诊断,linchuang_Doctor as 临床医生,DangAnHao as 档案号,ZhuYuanHao as 住院号,Bed_Hao 床号 ,youxianji, roomid,LianXiFangShi as 联系方式 
+ from queue_duiLieingView  
+ where dlid=8
+ and PDStatite='受理'
+order by paiduihao

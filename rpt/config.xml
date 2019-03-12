@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet?>
+<config>
+	<VideoGrabber VideoComPressIndex="0" VideoSourceIndex="0" VideoSourceName="Datapath VisionRGB-E1 01 (WDM)" VideoComPressConfigFile="D:\stusdata\releaseVTOK\release\FYvideocfg1080p.prx"/>
+	<DataBase schemaLocation="D:\stusdata\releaseVTOK\Connect_Local.udl" MainDBLinkFile="D:\stusdata\releaseVTOK\Connect_Local.udl"/>
+	<VideoCard type="3"/>
+	<超声号 超声号自动加1="True" NO="1234" 前缀="US11" 分隔符="" 日期格式="YYMMDD"/>
+	<Font name="微软雅黑" style="[]" color="clBlack" Size="12"/>
+	<Richedit sj_color="clWhite" ts_color="clWhite"/>
+	<ReportTitle 报告标题="彩超检查报告单" title_num="-1"/>
+	<Capture speed="0" capcont="50" UseHouTaiCap="True" caphotkey="115" FootSwichHouTai="True" Cap_Beep="True"/>
+	<FootSwich port="COM1" FootSwich_Record="False" footswitchoff="False"/>
+	<Store autosavetime="1" ForceAutoSave="False" AutoSave="False" ImagePaths="\\vmts\csnjimages$\cs" DeleteEmptyBingLI="True"/>
+	<Application Demo="False"/>
+	<HIS use_BiaoRuanTJ="False" use_21TJ="False" emrdblink="" B_useZJK="True" zhongjianDBlink="D:\stusdata\releaseVTOK\Connect_ZJK.udl" Filter_ByZxks="True" Filter_ZXKSCode="0004" Filter_ByDay="False" Filter_DayNum="3" HisDBlink="D:\stusdata\releaseVTOK\Connect_his.udl" B_LockHisPort="False" useHisPort="True"/>
+	<叫号系统 lockTime="19" Check_UseUdp="False" B_useJH="False" port="8190" Screen_ip="127.0.0.1" B_NZHjlstToDengJilst="False" 自动新建="True"/>
+	<模板 模板路径="D:\stusdata\data\mod.mdb" ModdAdd_JY="False" HLmodePath="D:\stusdata\mode\mhl\info.mdb" ModSend_HintSelected="True" KeepModFromatWhenUse="False" usePartWindow="True" UseThirdMode="True" ThirdModeTag="JY" ModAutoSend="True" UseHLMode="True" useChangYongMode="True" HLmode_Added="True" ChangYounModeAdded="True"/>
+	<Print font_used="False" font_fontChange="True" font_charset="DEFAULT_CHARSET" font_fontname="微软雅黑" DefaultRptFmt="a4yz.fr3" Wysiwyg="True" WordPrint="True" showprintdialog="True"/>
+	<other AutoFreeMemory="True"/>
+	<pacs UpLoadToPacsDbLink="D:\stusdata\releaseVTOK\UpToPacsConnect.udl" UpDataToRMpacsServer="False" web-address="http://www.NetFilm.com/" B_useGridjpgCut="False" syapase_address="http://tieba.baidu.com/f?kw=%D2%EC%CA%C0%CE%AA%C9%AE&amp;fr=" B_StartWorkListMOde="False" useDicomReceivedImgTab="False" Pacs_workListScu_AE="LOGICBOOK" opendicom="False"/>
+	<报告编辑器 DeleteEnter="False" notUseRtf="True"/>
+	<WorkRoom WorkRoomClass="超声科" WorkRoomName="超声五室"/>
+	<Patient Default_OpenLastPatient="False"/>
+	<Display ScreenDisplayTag_Auto="True" Videopanel_W_h="0"/>
+	<dgc133 dgc133capLog="False" dgc133cap_useNeiFunc="True"/>
+	<录像 OtherRecordPath="d:\ddd" UseOtherRecordPath="False" OtherRecordPath_Tag="" RecordDevice="Integrated Camera" WmvPrxFile="D:\stusdata\releaseVTOK\WmvConfig\FYvideocfg768x576p.prx" UseWMEconfig="False"/>
+	<ImageCut top="4" left="1" width="634" height="475"/>
+	<收费 黑白超收费="30" 彩超收费="90" 报告单收费="10" 基价="20"/>
+	<设备 设备型号="东芝350"/>
+	<医院 院标="D:\stusdata\releaseVTOK\backimage\cross.bmp" 医院名称="解放军66021部队医院"/>
+	<MainForm VideoWindow_width="768" VideoWindow_height="576" B_DisablePrintAfter7Day="False" B_useTiJian_ReturnPort="False" B_useHis_ReturnPort="False" B_AftercutSaveToPatient="True" Port_Select_index="0" B_EnablePrintNoName="False" B_useGreenMethod="False" B_AutoInsertJieHeLinchuan="True" B_notDisable_patientName="True" B_DisableEditReportAfterPrint="True" B_Login_jcDoc_Qxgl="True">
+		<toolbar xinzang="False" canke="False" celing="False" lishi="False" tuichu="True"/>
+	</MainForm>
+	<video DefaultVideoinputPort="0" VideoStandard="0" VideoBrightNess="152" VideoContrast="386" VideoHue="135" VideoSaturation="267" ImageWidth="640" ImageHeight="480" mpeg4="True" ScaleToScreen="True" B_vt_videoGeHang="True" dvsg_video_deinterlacing="0" ds_VideoSourceIndex="0" ds_videoStandardIndex="0" ds_VideoInputIndex="0" ds_VideoSizeIndex="5" ds_videocompressIndex="3" ds_iCapDelay="100"/>
+	<招告编辑器 ChangeReportStatus="True" MoveLastToQT="False" ReportFontSize="18"/>
+	<CDWrite nero_cmd_path="D:\stusdata\releaseVTOK\cdimage" cmdimage_path="D:\stusdata\releaseVTOK\cdimage" Iso_package_path="D:\stusdata\cd_temp\Iso_temp" File_package_path="D:\stusdata\cd_temp\File_temp" CD_Drive_Name="J" CD_media_type_dvd="False" CD_write_speed="24" CD_volume_title="11092683" ExportJpg="False"/>
+	<WordPrint delay="6" closefile="False" show="False" PageSize="B5" PrintToPaper="False" auturun="False" min="False"/>
+	<Dispaly Videopanel_W_h="2"/>
+	<modform ontop="False" modformwidth="888"/>
+	<sdk3000 VideoSize="720 * 576" VideoCompress="XviD MPEG-4 Codec" VIDEO_IN_port="4" FramrRate="0" OsdT_show="False" OsdText_height="0" OsdText_width="0" OsdText_weight="0" OsdText_Spacing="0" OsdText_BkColor="clBlack" OsdText_TextColor="clBlack" OsdText_Italic="False" OsdText_Underline="False" OsdText_StrikeOut="False" OsdText_FaceName="" OsdT_point_x="0" OsdT_point_y="0" OsDT_Transparent="True" Osd_str="FuYuan Soft" OsdD_show="False" OsdD_height="0" OsdD_width="0" OsdD_weight="0" OsdD_Spacing="0" OsdD_BkColor="clBlack" OsdD_Italic="False" OsdD_Underline="False" OsdD_StrikeOut="False" OsdD_FaceName="" OsdD_point_x="0" OsdD_point_y="0" OsDD_Transparent="True"/>
+	<ImgSR port="5600" Check_ReportState="False"/>
+	<Workroom/>
+	<patient CreateNewPatientArterPrinted="False"/>
+	<part B_useImgDongTaiFanda="False" B_JcBWuseGrid="True"/>
+	<测量表格 B_useGridjpgCut="True"/>
+	<颈部血管.tab left="186" top="79" width="401" height="136"/>
+	<心脏.tab left="78" top="-340" width="623" height="646"/>
+	<TiJian B_useTianJiPort="False" TiJianDBLink="D:\stusdata\releaseVTOK\Connect_TFDtiJIan.udl"/>
+	<form B_filter="False" S_filter="超" B_DontDisplay_examed="False" B_FilterByKeShi="False" S_Filter_KeShiCode=""/>
+	<emr B_usrEmr="False"/>
+	<脑部血管.tab/>
+	<默认 检查类别="心脏超声" 检查方法="二维超声检查" 检查途径="经腹部"/>
+	<肾血管.tab/>
+	<肝胆胰脾.tab/>
+	<opkeshi op_kscode="" op_ksName="" op_docname="" op_doccode=""/>
+	<his his_itemCodeClassGpstr="19,20"/>
+	<SQD B_HintSanSQD="False" S_SQD_LocalFn="D:\登记\release\扫描图片001.jpg" B_DisplaySQDViewButtonOnMainForm="False"/>
+	<Room Room_filterString="超声一室,超声二室,超声三室,超声五室"/>
+	<心脏1.tab/>
+	<胎儿大畸形.tab/>
+	<YinYangXing B_ForceYinYanXing="False"/>
+	<LCZD B_AutoRemberLCZD="False"/>
+	<Quick FirdtNewAfterGet="False"/>
+	<CustomUI/><FireTran B_ClosrFireTran="False"/><dispaly Videopanel_W_h="2"/><Net B_NetMontor="False" S_NetMontorPath="D:\通用DLL及接口\客户连接服务\ReleaseClient\Client_connection.exe"/><Joy B_useJoyControl="True" I_JoyTimer="125" I_joyBt1="0" I_joyBt2="1" I_joyBt3="2" I_joyBt4="3" I_JoyDelayCanCap="500"/><Record RecordTimeLimte="6000"/></config>

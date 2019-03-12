@@ -1,0 +1,4 @@
+select id,csid,name,sex,age,ageunit,songjianpart,patientsource,bednum,zhuyuannum,menzhennum,tiJianNum,shenqingdoc,linchuanzhenduan,jianchadoc,baogaodoc,shenhedoc,jinchasuojian,jianchajielun,jianyi,yinyangxing,shebeixinghao,baogaoriqi,baogaoshijian,jianchapart,partnum,suifang,money,imageY,imagepath,imagenum,cdrw,cdno,rep_format,lock,dizhi,telnum, hunfou,yunci,canci,shebalhao,PatientHISnum,minzu,jianchazhuangtai,yunqiz,yunqit,liushuihao, yuejingmoqi,fuzhuzhenduan,WorkRoomName,DOCuser,ReportState,State,Ris_PatientId,HuiZhenDoc,DoubleCheck,UPtoRis,EnName,HisItemId,CeLiangGrid,ImgUpLoadToCSServer,RecordPath,WorkRoomClass, UPtoTJ,UPtoEmr,UptoHis,idCard,TanTouRate,TiXing,ImgQuality,JZCardNo,BingQu,TanTouXingHao, CEGridFileName_mod,CeLiang_txt,SQDSubPath,SQDImg,  SQDScaned,bsuifang,jbingqu from patient
+where
+  workRoomName in ()and baogaoriqi>='2012-4-10 00:00:00' and baogaoriqi<='2012-4-12 23:59:59' and ((Bsuifang=0) or (bsuifang is null) )
+order by [id] desc

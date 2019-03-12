@@ -1,0 +1,9 @@
+ SELECT csid ,[name],
+ CASE   DoubleCheck  WHEN   1   THEN   '是'   WHEN   0   THEN   '否'   END   AS   重复检查  ,
+ CASE  ReportState  WHEN   1   THEN   '是'   WHEN   0   THEN   '否'   END   AS   已打印 
+,sex,age, baogaoriqi,workRoomName ,id
+ from patient 
+ where workRoomName='超声二室'
+ and baogaoriqi>='2010-07-22 00:00:00'
+ and baogaoriqi<='2010-07-22 23:59:59'
+  order by csid desc

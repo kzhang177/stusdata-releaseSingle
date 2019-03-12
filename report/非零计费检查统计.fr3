@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.7.109" DotMatrixReport="False" EngineOptions.MaxMemSize="10000000" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39133.3621273843" ReportOptions.Description.Text="" ReportOptions.LastChange="40163.6524159028" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403D10203546F70020908446174617365747301010C2C00000020446174615365743D226672785F71725F64622220446174615365744E616D653D226672785F71725F6462220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Height="34.01577" Left="0" Top="128.50402" Width="1046.92981">
+      <TfrxMemoView Name="Memo2" Left="18.89765" Top="6" Width="51.65357667" Height="18.41733667" ShowHint="False" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="超声号"/>
+      <TfrxMemoView Name="Memo4" Left="226.7718" Top="6" Width="45.35436" Height="19.15749333" ShowHint="False" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="性别"/>
+      <TfrxLineView Name="Line1" Left="3.77953" Top="2.67717999999999" Width="1043.15028" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo3" Left="136.06308" Top="6" Width="37.7953" Height="20.41733667" ShowHint="False" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="姓名"/>
+      <TfrxMemoView Name="Memo13" Left="294.58287" Top="7.55905999999999" Width="45.35436" Height="19.15749333" ShowHint="False" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="年龄"/>
+      <TfrxMemoView Name="Memo14" Left="480.00031" Top="7.55905999999999" Width="90.70872" Height="19.15749333" ShowHint="False" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="检查部位"/>
+      <TfrxMemoView Name="Memo15" Left="782.36271" Top="7.55905999999999" Width="90.70872" Height="19.15749333" ShowHint="False" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="检查时间"/>
+      <TfrxMemoView Name="Memo16" Left="910.86673" Top="7.55905999999999" Width="90.70872" Height="19.15749333" ShowHint="False" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="收费金额"/>
+    </TfrxPageHeader>
+    <TfrxReportTitle Name="ReportTitle1" Height="86.92919" Left="0" Top="18.89765" Width="1046.92981">
+      <TfrxMemoView Name="Memo1" Align="baCenter" Left="402.81796" Top="48.13389" Width="241.29389" Height="28.23624" ShowHint="False" AutoWidth="True" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="5" Frame.Typ="8" Frame.Width="0.1" ParentFont="False" Text="B超室非零计费检查统计表"/>
+      <TfrxPictureView Name="logo" Left="11.33859" Top="0" Width="83.14966" Height="60.47248" ShowHint="False" HightQuality="False"/>
+      <TfrxMemoView Name="hostname" Align="baCenter" Left="521.464905" Top="2.51968667" Width="4" Height="55.43310667" ShowHint="False" AutoWidth="True" Font.Charset="1" Font.Color="0" Font.Height="-32" Font.Name="��������" Font.Style="0" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="startdate" Left="705.89796" Top="61.73232333" Width="90.70872" Height="20.15749333" ShowHint="False" HAlign="haCenter" VAlign="vaBottom" Text=""/>
+      <TfrxMemoView Name="Memo12" Left="796.60668" Top="61.60629921" Width="18.89765" Height="20.15749333" ShowHint="False" DisplayFormat.DecimalSeparator="." HAlign="haCenter" VAlign="vaBottom" Text="--"/>
+      <TfrxMemoView Name="enddate" Left="823.06339" Top="61.60629921" Width="90.70872" Height="20.15749333" ShowHint="False" HAlign="haCenter" VAlign="vaBottom" Text=""/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="27.23624" Left="0" Top="253.22851" Width="1046.92981" AllowSplit="True" Child="Child1" ColumnWidth="0" ColumnGap="0" DataSet="frx_qr_db" DataSetName="frx_qr_db" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo6" Left="234.09462" Top="1.77953000000002" Width="49.13389" Height="18.89765" ShowHint="False" DataField="sex" DataSet="frx_qr_db" DataSetName="frx_qr_db" Text="[frx_qr_db.&#34;sex&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="789.80365" Top="1.77953000000002" Width="79.37013" Height="18.89765" ShowHint="False" DataField="baogaoriqi" DataSet="frx_qr_db" DataSetName="frx_qr_db" Text="[frx_qr_db.&#34;baogaoriqi&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="28.11812" Top="1.55905999999999" Width="79.37013" Height="18.89765" ShowHint="False" DataField="csid" DataSet="frx_qr_db" DataSetName="frx_qr_db" Text="[frx_qr_db.&#34;csid&#34;]"/>
+      <TfrxMemoView Name="frx_qr_dbname" Left="119.16543" Top="3.77953000000005" Width="105.82684" Height="18.89765" ShowHint="False" DataField="name" DataSet="frx_qr_db" DataSetName="frx_qr_db" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frx_qr_db.&#34;name&#34;]"/>
+      <TfrxMemoView Name="frx_qr_dbage" Left="301.48052" Top="3.77953000000005" Width="64.25201" Height="18.89765" ShowHint="False" DataField="age" DataSet="frx_qr_db" DataSetName="frx_qr_db" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frx_qr_db.&#34;age&#34;]"/>
+      <TfrxMemoView Name="frx_qr_dbageunit" Left="366.61441" Top="3.77953000000005" Width="52.9134199999994" Height="18.89765" ShowHint="False" DataField="ageunit" DataSet="frx_qr_db" DataSetName="frx_qr_db" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frx_qr_db.&#34;ageunit&#34;]"/>
+      <TfrxMemoView Name="frx_qr_dbjianchapart" Left="423.30736" Top="3.77953000000005" Width="351.49629" Height="18.89765" ShowHint="False" StretchMode="smActualHeight" DataField="jianchapart" DataSet="frx_qr_db" DataSetName="frx_qr_db" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" WordBreak="True" Text="[frx_qr_db.&#34;jianchapart&#34;]"/>
+      <TfrxMemoView Name="frx_qr_dbmoney" Left="918.42579" Top="3.77953000000005" Width="158.74026" Height="18.89765" ShowHint="False" DataField="money" DataSet="frx_qr_db" DataSetName="frx_qr_db" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frx_qr_db.&#34;money&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="49.13389" Left="0" Top="449.76407" Width="1046.92981">
+      <TfrxLineView Name="Line5" Left="3.77953" Top="7.55905999999987" Width="1039.37075" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo11" Left="196.53556" Top="15.1181199999999" Width="268.34663" Height="22.67718" ShowHint="False" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="MedSys Soft"/>
+    </TfrxPageFooter>
+    <TfrxChild Name="Child1" Height="7.55906" Left="0" Top="302.3624" Width="1046.92981">
+      <TfrxLineView Name="Line4" Left="3.77953" Top="2.55905999999999" Width="1043.15028" Height="0" ShowHint="False" Frame.Typ="4"/>
+    </TfrxChild>
+    <TfrxHeader Name="Header1" Height="7.55906" Left="0" Top="222.99227" Width="1046.92981">
+      <TfrxLineView Name="Line2" Left="3.77953" Top="3.55905999999999" Width="1039.37075" Height="0" ShowHint="False" Frame.Typ="4"/>
+    </TfrxHeader>
+    <TfrxFooter Name="Footer1" Height="55.43310666" Left="0" Top="332.59864" Width="1046.92981">
+      <TfrxMemoView Name="Memo8" Left="793.7013" Top="16.37796333" Width="47.87404667" Height="23.93702333" ShowHint="False" Color="65535" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="总计:"/>
+      <TfrxMemoView Name="Memo9" Left="843.43362333" Top="17.63780667" Width="190.23634333" Height="15.11812" ShowHint="False" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[COUNT(MasterData1)]例    [SUM(&#60;frx_qr_db.&#34;money&#34;&#62;,MasterData1)]元"/>
+    </TfrxFooter>
+  </TfrxReportPage>
+</TfrxReport>

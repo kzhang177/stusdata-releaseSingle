@@ -1,0 +1,4 @@
+select * from patient
+where
+baogaoriqi>='2013-07-23 00:00:00' and baogaoriqi<='2013-07-30 23:59:59'
+ and PrintedCount>0

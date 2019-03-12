@@ -1,0 +1,5 @@
+SELECT  [name],sex,age, PrintedCount   AS   ´òÓ¡´ÎÊý, jianchapart, csid , CASE   SQDScaned  WHEN   1   THEN   'ÒÑÉ¨Ãè'   WHEN   0   THEN   'Î´É¨Ãè'   END   AS   ÉêÇëµ¥  , CASE   DoubleCheck  WHEN   1   THEN   'ÊÇ'   WHEN   0   THEN   '·ñ'   END   AS   ÖØ¸´¼ì²é , baogaoriqi,workRoomName ,id,capReportstatus,WeriteReportStatus ,tijiannum,reportstate from patient
+ where workRoomName='²Ê³¬°ËÊÒ'
+ and baogaoriqi>='2019-03-11 00:00:00'
+ and baogaoriqi<='2019-03-11 23:59:59'
+ order by id  desc

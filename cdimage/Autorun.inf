@@ -1,0 +1,5 @@
+[autorun]
+OPEN=CDview.exe
+ICON=CDview.ico
+hostname=
+cross=cross.bmp

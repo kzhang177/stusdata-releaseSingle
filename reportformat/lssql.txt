@@ -1,0 +1,3 @@
+select * from patient
+where
+baogaoriqi>= ' 2012-1-30 '  and baogaoriqi<= ' 2012-6-6 '
