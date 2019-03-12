@@ -4,7 +4,7 @@
 	<VideoGrabber VideoComPressIndex="0" VideoSourceIndex="0" VideoSourceName="Datapath VisionRGB-E1 01 (WDM)" VideoComPressConfigFile="C:\Documents and Settings\Administrator\桌面\VicdoCapture\release\FYvideocfg1080p.prx"/>
 	<DataBase schemaLocation="D:\stusdata\releaseSingle\Connect_Local1.udl" MainDBLinkFile="D:\stusdata\releaseSingle\Connect_Local.udl"/>
 	<VideoCard type="3"/>
-	<超声号 超声号自动加1="True" NO="10341" 前缀="8" 分隔符="" 日期格式="YYMMDD"/>
+	<超声号 超声号自动加1="True" NO="10342" 前缀="8" 分隔符="" 日期格式="YYMMDD"/>
 	<Font name="宋体" style="[]" color="clWindowText" Size="12"/>
 	<Richedit sj_color="$00F2DCD5" ts_color="$00F2DCD5"/>
 	<ReportTitle 报告标题="彩色超声报告单" title_num="-1"/>
@@ -32,11 +32,11 @@
 		<toolbar celing="False" xinzang="False" canke="False" lishi="True" tuichu="True"/>
 	</MainForm>
 	<video VideoStandard="4" VideoBrightNess="128" VideoContrast="216" VideoHue="128" VideoSaturation="256" ImageWidth="768" ImageHeight="576" mpeg4="True" ScaleToScreen="False" DefaultVideoinputPort="2" B_vt_videoGeHang="True" ds_VideoSourceIndex="0" ds_videoStandardIndex="2" ds_VideoInputIndex="2" ds_VideoSizeIndex="15" ds_videocompressIndex="2" dvsg_video_deinterlacing="0" ds_iCapDelay="800"/>
-	<招告编辑器 ChangeReportStatus="True" ReportFontSize="12" MoveLastToQT="True"/>
+	<招告编辑器 ChangeReportStatus="True" MoveLastToQT="True" ReportFontSize="12"/>
 	<CDWrite nero_cmd_path="D:\stusdata\releaseSingle\cdimage" cmdimage_path="D:\stusdata\releaseSingle\cdimage" Iso_package_path="D:\stusdata\cd_temp\Iso_temp" File_package_path="D:\stusdata\cd_temp\File_temp" CD_Drive_Name="J" CD_media_type_dvd="False" CD_write_speed="24" CD_volume_title="" ExportJpg="False"/>
 	<WordPrint delay="6" auturun="True" min="True" closefile="False" show="False" PageSize="B5" PrintToPaper="False"/>
 	<Dispaly Videopanel_W_h="2"/>
-	<modform modformwidth="724" ontop="True" B_ModInsertAddToLast="True"/>
+	<modform ontop="True" B_ModInsertAddToLast="True" modformwidth="724"/>
 	<sdk3000 VideoSize="720 * 576" VideoCompress="XviD MPEG-4 Codec" VIDEO_IN_port="4" FramrRate="0" OsdT_show="False" OsdText_height="0" OsdText_width="0" OsdText_weight="0" OsdText_Spacing="0" OsdText_BkColor="clBlack" OsdText_TextColor="clBlack" OsdText_Italic="False" OsdText_Underline="False" OsdText_StrikeOut="False" OsdText_FaceName="宋体" OsdT_point_x="0" OsdT_point_y="0" OsDT_Transparent="True" Osd_str="FuYuan Soft" OsdD_show="False" OsdD_height="0" OsdD_width="0" OsdD_weight="0" OsdD_Spacing="0" OsdD_BkColor="clBlack" OsdD_Italic="False" OsdD_Underline="False" OsdD_StrikeOut="False" OsdD_FaceName="宋体" OsdD_point_x="0" OsdD_point_y="0" OsDD_Transparent="True"/>
 	<ImgSR port="5600" WebAddress="http://192.168.2.35:80/report.asmx?WSDL" B_useWebServ="False" s_FtpServer="192.168.2.35" s_FtpUser="Doctor" s_FtpPwd="Docto1r" i_ftpPort="21" B_UseFtp="False" S_FTPRoot="/us" B__UseUNCSendImg="True"/>
 	<Workroom/>
